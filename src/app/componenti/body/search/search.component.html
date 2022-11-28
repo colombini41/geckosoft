@@ -1,6 +1,6 @@
 <div id="barra">
   <mat-form-field class="example-full-width">
     <mat-label>Inserisci qui delle parole di ricerca</mat-label>
-    <input matInput #ricerca (keydown.enter)="mostraGif(ricerca.value)">
+    <input matInput #ricerca (keydown)="mostraGif(ricerca.value)">
   </mat-form-field>
 </div>

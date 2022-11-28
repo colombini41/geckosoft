@@ -1,0 +1,12 @@
+<h1 mat-dialog-title>{{gif.title}}</h1>
+<img id="img_dialog" [src]="gif.images.downsized.url">
+<div class="content_dialog" mat-dialog-content>Data di caricamento: {{gif.import_datetime}}</div>
+<div class="content_dialog" mat-dialog-content>URL: <a href="{{gif.url}}">{{gif.url}}</a></div>
+<br/>
+<div class="content_dialog" mat-dialog-content>Caricato da: {{gif.user.display_name}}<a href="{{gif.user.profile_url}}">(@{{gif.user.username}})</a></div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close style="cursor: pointer; margin-left: 45%" >Close</button>
+</div>
+
+
+

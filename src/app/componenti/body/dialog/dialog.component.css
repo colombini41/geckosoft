@@ -1,0 +1,10 @@
+#img_dialog{
+  border-radius: 3px;
+  border: 2px black solid;
+  width: 50%;
+}
+
+.content_dialog{
+  margin-top: 10px;
+}
+

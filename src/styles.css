@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+mat-icon{
+  font-family: 'Material Icons' !important;
+}
+
+
+footer {
+  border-top: 2px black solid;
+  padding: 20px;
+}
+
+footer a {
+  color: black;
+}
+
+

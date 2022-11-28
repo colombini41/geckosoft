@@ -1,0 +1,32 @@
+.spazio {
+  width: 90%;
+  margin-left: 5%;
+}
+
+img {
+  width: 70%;
+  max-height: 250px;
+  border-radius: 3px;
+  border: 2px black solid;
+  box-shadow: 5px 5px 5px #121212;
+  cursor: pointer;
+  background-image: url(../../../placeholder.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+}
+
+
+.example-h2 {
+  margin: 10px;
+}
+
+.example-section {
+  align-content: center;
+  align-items: center;
+}
+
+.example-margin {
+  margin: 0 10px;
+}

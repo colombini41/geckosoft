@@ -1,0 +1,17 @@
+<div id="orderby">
+  <section class="example-section">
+    <label class="example-margin">Ordina le tue ricerche:</label>
+    <mat-radio-group [(ngModel)]="labelPosition">
+      <mat-radio-button class="example-margin" id="ascending" value="ascending" (click)="descending(spaziogif)">Data di caricamento più recente</mat-radio-button>
+      <mat-radio-button class="example-margin" id="discending" value="descending" (click)="ascending(spaziogif)">Data di caricamento più vecchia</mat-radio-button>
+    </mat-radio-group>
+  </section>
+</div>
+<div class="spazio">
+  <mat-grid-list cols="4" rowHeight="1:1">
+    <mat-grid-tile *ngFor="let gif of spaziogif">
+      <img [src]="gif.images.downsized.url" alt="Gif" (click)="openDialog(gif.id)">
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+
